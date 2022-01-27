@@ -1,0 +1,44 @@
+.container {
+  .postContainer {
+    height: 10rem;
+    width: 100%;
+    h1 {
+      color: var(--heading);
+      margin-bottom: 0.5rem;
+      transition: all 0.2s;
+
+      &:hover {
+        color: var(--headingHover);
+      }
+    }
+  }
+
+  .information {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+
+    time {
+      font-size: 0.9rem;
+      margin: 0 2rem 0 0.5rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+      margin-left: 5px;
+    }
+  }
+
+  >button {
+    background: transparent;
+    border: none;
+
+    h3 {
+      color: var(--hightlight);
+      transition: color 0.2s;
+      &:hover {
+        color: var(--hightlightHover);
+      }
+    }
+  }
+}

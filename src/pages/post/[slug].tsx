@@ -71,7 +71,6 @@ export default function Post({ post }: PostProps): JSX.Element {
   }, [post, router.isFallback]);
 
   if (router.isFallback) {
-    console.log('passou');
     return <div>Carregando...</div>;
   }
 
